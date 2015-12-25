@@ -9,6 +9,8 @@
 
 * > 4.作为一个iOS开发者和入门云计算开发者，欢迎共同交流学习。
 
+* > Last but not least,转载请务必注明原作者，谢谢~为开源做贡献
+
 
 ##1.打开Terminal
 * 按键盘 control + alt + T 打开终端
