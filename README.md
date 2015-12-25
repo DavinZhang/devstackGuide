@@ -16,7 +16,7 @@
 ##2.检查git安装状态
 * 终端中输入`git`
 
-![屏幕快照 2015-12-25 下午1.22.14](media/14510202493251/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-12-25%20%E4%B8%8B%E5%8D%881.22.14.png)￼
+![git.png](https://raw.githubusercontent.com/DavinZhang/devstackGuide/master/Screenshots/git.png)￼
 
 出现以上界面证明git已安装
 
@@ -57,7 +57,7 @@ $YOUR_USER_NAME改成当前的用户名
 
 3.将`local.conf`文件中的`HOST_IP=192.168.202.128`后面的地址修改成ifconfig命令查询到的一般是用来网络连接的地址那个地址，修改完成关闭文件
 
-![](media/14510202493251/14510228099505.jpg)
+![net.jpg](https://raw.githubusercontent.com/DavinZhang/devstackGuide/master/Screenshots/net.jpg)
 
 ￼
 4.使用cp命令将local.conf文件拷贝到`/home/$YOUR_USER_NAME/devstack`目录下，`$YOUR_USER_NAME`依然替换为你的用户名
