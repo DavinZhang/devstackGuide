@@ -32,13 +32,14 @@
 
 ##4.配置stack账户
 1.终端cd到git下载下来的devstack/tools
-`cd ~/devstack/tools`
+`cd /home/$YOUR_USER_NAME/devstack/tools`
+$YOUR_USER_NAME改成当前的用户名
 
 2.创建stack账户
 `sudo ./create-stack-user.sh`
 
 ##5.配置文件夹权限
-1.终端输入`sudo chown -R stack:stack ~/devstack`
+1.终端输入`sudo chown -R stack:stack /home/$YOUR_USER_NAME/devstack`
 
 2.为了一劳永逸偷懒输入`sudo chown 777 /etc`
 
@@ -61,15 +62,15 @@
 ![net.jpg](https://raw.githubusercontent.com/DavinZhang/devstackGuide/master/Screenshots/net.jpg)
 
 ￼
-4.使用cp命令将local.conf文件拷贝到`~/devstack`目录下
+4.使用cp命令将local.conf文件拷贝到`/home/$YOUR_USER_NAME/devstack`目录下，`$YOUR_USER_NAME`依然替换为你的用户名
 >由于不确定你的文件位置，以下代码用作示例，根据实际情况修改
 >如有权限问题使用sudo解决cp拷贝权限
-
-`cp /home/davin/Desktop/local.conf ~/devstack/`
+>！！！再重申一遍，下面地址仅供参考，需要自己修改！！！
+`cp /home/davin/Desktop/local.conf /home/davin/devstack/`
 
 ##开始运行配置文件脚本
 
-* 输入`cd ~/devstack`进入路径
+* 输入`cd /home/$YOUR_USER_NAME/devstack`进入路径
 
 * 输入`./stack.sh`开始漫长的等待吧。基本15到30分钟就可以了
 
